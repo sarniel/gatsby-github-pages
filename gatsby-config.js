@@ -7,6 +7,7 @@
  */
 
 module.exports = {
+  pathPrefix: `/gatsby-github-pages`,
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
@@ -39,7 +40,9 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         // the only required plugin option for WordPress is the GraphQL url.
-        url: process.env.WPGRAPHQL_URL || `https://archsdigest.com/graphql`,
+        url:
+          process.env.WPGRAPHQL_URL ||
+          `https://wpgatsbydemo.wpengine.com/graphql`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,
