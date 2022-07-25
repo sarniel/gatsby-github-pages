@@ -7,7 +7,7 @@
  */
 
 module.exports = {
-  pathPrefix: `/gatsby-github-pages`,
+  pathPrefix: `/`,
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
